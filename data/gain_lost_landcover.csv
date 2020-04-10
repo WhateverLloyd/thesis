@@ -1,0 +1,15 @@
+﻿Landcover,Change,Hectares
+High Intensity Developed,Lost,0
+Low Intensity Developed,Lost,-2852
+Agriculture,Lost,-10472
+Forested Upland,Lost,-21426
+Forested Wetland,Lost,-18027
+Marsh,Lost,-15489
+Water,Lost,-3882
+High Intensity Developed,Gained,8850
+Low Intensity Developed,Gained,18046
+Agriculture,Gained,2594
+Forested Upland,Gained,8677
+Forested Wetland,Gained,13035
+Marsh,Gained,11502
+Water,Gained,9444
