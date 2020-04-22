@@ -1,0 +1,32 @@
+﻿Source,Target,Hectares
+Agriculture,Forested Upland,7387
+Agriculture,Forested Wetland,16
+Agriculture,High Intensity Development,531
+Agriculture,Low Intensity Development,1421
+Agriculture,Marsh,182
+Agriculture,Water,935
+Forested Upland,Agriculture,2279
+Forested Upland,Forested Wetland,123
+Forested Upland,High Intensity Development,4185
+Forested Upland,Low Intensity Development,12081
+Forested Upland,Marsh,68
+Forested Upland,Water,2690
+Forested Wetland,Agriculture,12
+Forested Wetland,Forested Upland,74
+Forested Wetland,High Intensity Development,1113
+Forested Wetland,Low Intensity Development,4003
+Forested Wetland,Marsh,9545
+Forested Wetland,Water,3280
+Low Intensity Development,High Intensity Development,2852
+Marsh,Agriculture,20
+Marsh,Forested Upland,115
+Marsh,Forested Wetland,12355
+Marsh,High Intensity Development,103
+Marsh,Low Intensity Development,357
+Marsh,Water,2539
+Water,Agriculture,283
+Water,Forested Upland,1101
+Water,Forested Wetland,541
+Water,High Intensity Development,66
+Water,Low Intensity Development,184
+Water,Marsh,1707
