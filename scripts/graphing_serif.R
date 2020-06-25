@@ -1,3 +1,6 @@
+#Create Graphs Showing Variables
+##updated version with times new roman font 
+
 #LOAD REQUIRED PACKAGES----
 library(tidyverse)
 library(ggpubr)
@@ -6,7 +9,7 @@ library(ggrepel)
 
 #IMPORT DATASETS----
 weather <- read.csv("./data/weather_data_for_analysis.csv")
-scecap_for_analysis <- read.csv("./data/scecap_for_analysis.csv")
+scecap_for_analysis <- read.csv("./data/scecap_for_analysis2.csv")
 scecap_hucs <- read.csv("./data/scecap_hucs.csv")
 county_population <- read.csv("./data/county_population.csv")
 landcover_counties <- read.csv("./data/landcover_counties.csv")
@@ -711,7 +714,7 @@ bioplot_trawlabun2 <- ggplot(data = scecap_ALL, aes(x = YEAR, y = trawlABUND)) +
   geom_line() +
   theme_classic(base_family = "Times New Roman") +
   stat_smooth(method = "lm", se = F, color = "black", size = 0.3, linetype = 1) +
-  labs(y = "Trawl Total Abundance", x = "")
+  labs(y = expression("Trawl Abundance "(individuals/m ^ 2)), x = "") 
 
 bioplot_benthrich2 <- ggplot(data = scecap_ALL, aes(x = YEAR, y = benthRICH)) + 
   geom_line() +
@@ -723,7 +726,7 @@ bioplot_benthabun2 <- ggplot(data = scecap_ALL, aes(x = YEAR, y = benthABUND)) +
   geom_line() +
   theme_classic(base_family = "Times New Roman") +
   stat_smooth(method = "lm", se = F, color = "black", size = 0.3, linetype = 3) +
-  labs(y = "Benthic Total Abundance", x = "")
+  labs(y = expression("Benthic Abundance "(individuals/m ^ 2)), x = "") 
 
 bioplot_bibi2 <- ggplot(data = scecap_ALL, aes(x = YEAR, y = BIBI)) + 
   geom_line() +
@@ -762,7 +765,7 @@ trawlabund_facet <- ggplot(data = scecap_RTRO, aes(x = YEAR, y = trawlABUND)) +
   stat_smooth(method = "lm", se = F, color = "black", size = 0.3, 
               inherit.aes = F, aes(x = YEAR, y = trawlABUND, linetype = RT_RO_Other)) +
   scale_linetype_manual(values=c(3, 1)) +
-  labs(y = "Trawl Abundance", x = "") + 
+  labs(y = expression("Trawl Abundance "(individuals/m ^ 2)), x = "")  + 
   theme(legend.position = "none") +
   facet_wrap(~RT_RO_Other, dir = "v")
 
@@ -782,7 +785,7 @@ benthabund_facet <- ggplot(data = scecap_RTRO, aes(x = YEAR, y = benthABUND)) +
   stat_smooth(method = "lm", se = F, color = "black", size = 0.3,
               inherit.aes = F, aes(x = YEAR, y = benthABUND, linetype = RT_RO_Other)) +
   scale_linetype_manual(values=c(3, 3)) +
-  labs(y = "Benthic Abundance", x = "") + 
+  labs(y = expression("Benthic Abundance "(individuals/m ^ 2)), x = "")  + 
   theme(legend.position = "none") +
   facet_wrap(~RT_RO_Other, dir = "v")
 
@@ -933,6 +936,7 @@ boxplot_habitat_logmet <- ggplot(data = scecap_for_analysis, aes(y = log1p(Met_T
   stat_compare_means(method = "t.test", label = "p.signif", label.x = 1.5,
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", "")))
+
 boxplot_habitat_logmetermq <- ggplot(data = scecap_for_analysis, aes(y = log1p(ERMQ_met), x = RT_RO_Other)) + 
   geom_boxplot() + 
   theme_classic(base_family = "Times New Roman") +
@@ -1027,7 +1031,7 @@ boxplot_habitat_trawlrich <- ggplot(data = scecap_for_analysis, aes(y = trawl_SP
 boxplot_habitat_trawlabund <- ggplot(data = scecap_for_analysis, aes(y = trawl_ABUNDANCE, x = RT_RO_Other)) + 
   geom_boxplot() + 
   theme_classic(base_family = "Times New Roman") +
-  labs(y = "Trawl Abundance", x = "") + 
+  labs(y = expression("Trawl Abundance "(individuals/m ^ 2)), x = "")  + 
   stat_compare_means(method = "t.test", label = "p.signif", label.x = 1.5,
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", "")))
@@ -1043,7 +1047,7 @@ boxplot_habitat_benthrich <- ggplot(data = scecap_for_analysis, aes(y = benth_SP
 boxplot_habitat_benthabund <- ggplot(data = scecap_for_analysis, aes(y = benth_ABUNDANCE, x = RT_RO_Other)) + 
   geom_boxplot() + 
   theme_classic(base_family = "Times New Roman") +
-  labs(y = "Benthic Total Abundance", x = "") + 
+  labs(y = expression("Benthic Abundance "(individuals/m ^ 2)), x = "")  + 
   stat_compare_means(method = "t.test", label = "p.signif", label.x = 1.5,
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", "")))
@@ -1400,7 +1404,7 @@ boxplot_period_trawlrich <- ggplot(data = scecap_for_analysis, aes(y = trawl_SP_
 boxplot_period_trawlabund <- ggplot(data = scecap_for_analysis, aes(y = trawl_ABUNDANCE, x = PERIOD)) + 
   geom_boxplot() + 
   theme_classic(base_family = "Times New Roman") +
-  labs(y = "Trawl Abundance", x = "") + 
+  labs(y = expression("Trawl Abundance "(individuals/m ^ 2)), x = "") + 
   stat_compare_means(method = "t.test", label = "p.signif", label.x = 1.5,
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", ""))) 
@@ -1416,7 +1420,7 @@ boxplot_period_benthrich <- ggplot(data = scecap_for_analysis, aes(y = benth_SP_
 boxplot_period_benthabund <- ggplot(data = scecap_for_analysis, aes(y = benth_ABUNDANCE, x = PERIOD)) + 
   geom_boxplot() + 
   theme_classic(base_family = "Times New Roman") +
-  labs(y = "Benthic Total Abundance", x = "") + 
+  labs(y = expression("Benthic Abundance "(individuals/m ^ 2)), x = "") + 
   stat_compare_means(method = "t.test", label = "p.signif", label.x = 1.5,
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", ""))) 
@@ -1458,7 +1462,7 @@ facetboxplot_period_trawlrich <- ggplot(data = scecap_for_analysis, aes(y = traw
 facetboxplot_period_trawlabund <- ggplot(data = scecap_for_analysis, aes(y = trawl_ABUNDANCE, x = PERIOD)) + 
   geom_boxplot() + 
   theme_classic(base_family = "Times New Roman") +
-  labs(y = "Trawl Abundance", x = "") + 
+  labs(y = expression("Trawl Abundance "(individuals/m ^ 2)), x = "")  + 
   stat_compare_means(method = "t.test", label = "p.signif", label.x = 1.5,
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", ""))) +
@@ -1476,7 +1480,7 @@ facetboxplot_period_benthrich <- ggplot(data = scecap_for_analysis, aes(y = bent
 facetboxplot_period_benthabund <- ggplot(data = scecap_for_analysis, aes(y = benth_ABUNDANCE, x = PERIOD)) + 
   geom_boxplot() + 
   theme_classic(base_family = "Times New Roman") +
-  labs(y = "Benthic Total Abundance", x = "") + 
+  labs(y = expression("Benthic Abundance "(individuals/m ^ 2)), x = "") +
   stat_compare_means(method = "t.test", label = "p.signif", label.x = 1.5,
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", ""))) +
@@ -1499,6 +1503,7 @@ facetboxplot_period_mambi <- ggplot(data = scecap_for_analysis, aes(y = MAMBI, x
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", ""))) +
   facet_wrap(~RT_RO_Other)
+
 
 facetboxplot_periods_biological <- ggarrange(facetboxplot_period_trawlrich, facetboxplot_period_trawlabund,
                                              facetboxplot_period_benthrich, facetboxplot_period_benthabund,
@@ -1836,7 +1841,7 @@ boxplot_development_trawlrich <- ggplot(data = scecap_hucs, aes(y = trawl_SP_RIC
 boxplot_development_trawlabund <- ggplot(data = scecap_hucs, aes(y = trawl_ABUND, x = HUC14_DEV_cut)) + 
   geom_boxplot() + 
   theme_classic(base_family = "Times New Roman") +
-  labs(y = "Trawl Abundance", x = "") + 
+  labs(y = expression("Trawl Abundance "(individuals/m ^ 2)), x = "") +
   stat_compare_means(method = "t.test", label = "p.signif", label.x = 1.5,
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", "")))
@@ -1852,7 +1857,7 @@ boxplot_development_benthrich <- ggplot(data = scecap_hucs, aes(y = benth_SP_RIC
 boxplot_development_benthabund <- ggplot(data = scecap_hucs, aes(y = benth_ABUNDANCE, x = HUC14_DEV_cut)) + 
   geom_boxplot() + 
   theme_classic(base_family = "Times New Roman") +
-  labs(y = "Benthic Total Abundance", x = "") + 
+  labs(y = expression("Benthic Abundance "(individuals/m ^ 2)), x = "") +
   stat_compare_means(method = "t.test", label = "p.signif", label.x = 1.5,
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", "")))
@@ -1894,7 +1899,7 @@ facetboxplot_development_trawlrich <- ggplot(data = scecap_hucs, aes(y = trawl_S
 facetboxplot_development_trawlabund <- ggplot(data = scecap_hucs, aes(y = trawl_ABUND, x = HUC14_DEV_cut)) + 
   geom_boxplot() + 
   theme_classic(base_family = "Times New Roman") +
-  labs(y = "Trawl Abundance", x = "") + 
+  labs(y = expression("Trawl Abundance "(individuals/m ^ 2)), x = "")  + 
   stat_compare_means(method = "t.test", label = "p.signif", label.x = 1.5,
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", "")))+
@@ -1912,7 +1917,7 @@ facetboxplot_development_benthrich <- ggplot(data = scecap_hucs, aes(y = benth_S
 facetboxplot_development_benthabund <- ggplot(data = scecap_hucs, aes(y = benth_ABUNDANCE, x = HUC14_DEV_cut)) + 
   geom_boxplot() + 
   theme_classic(base_family = "Times New Roman") +
-  labs(y = "Benthic Total Abundance", x = "") + 
+  labs(y = expression("Benthic Abundance "(individuals/m ^ 2)), x = "") + 
   stat_compare_means(method = "t.test", label = "p.signif", label.x = 1.5,
                      symnum.args =  list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                          symbols = c("***", "**", "*", "")))+
