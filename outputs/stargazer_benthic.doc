@@ -1,0 +1,23 @@
+
+<table style="text-align:center"><tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="3"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="3" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>log1p(benth_ABUNDANCE_AREA)</td><td>log(benth_SP_RICH)</td><td>MAMBI</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td></tr>
+<tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Logger_Salin_mean</td><td>0.04756492<sup>***</sup> (0.004603305)</td><td>0.05144168<sup>***</sup> (0.00259211)</td><td>0.005950705<sup>***</sup> (0.0005037122)</td></tr>
+<tr><td style="text-align:left">DAYMET_90dTAVG_degC</td><td>-0.127916<sup>***</sup> (0.02335723)</td><td>-0.08622934<sup>***</sup> (0.01274418)</td><td>-0.01399953<sup>***</sup> (0.002446495)</td></tr>
+<tr><td style="text-align:left">SiltClay</td><td>-0.006386773<sup>***</sup> (0.001458898)</td><td>-0.004166848<sup>***</sup> (0.0008301079)</td><td>-0.0006043524<sup>***</sup> (0.0001498943)</td></tr>
+<tr><td style="text-align:left">DJF_TAVG_diff</td><td>0.08089688<sup>***</sup> (0.02270711)</td><td></td><td></td></tr>
+<tr><td style="text-align:left">CHANNEL_WIDTH_log</td><td></td><td>0.03579285<sup>***</sup> (0.01334387)</td><td>0.01720625<sup>***</sup> (0.002706063)</td></tr>
+<tr><td style="text-align:left">DEVLOWCAT_prct</td><td></td><td>0.004974554<sup>***</sup> (0.001424417)</td><td></td></tr>
+<tr><td style="text-align:left">DAYMET_45dPRCP_cm</td><td>0.01249438<sup>***</sup> (0.004247014)</td><td>0.01326057<sup>***</sup> (0.00230921)</td><td>0.0009945436<sup>**</sup> (0.0004715171)</td></tr>
+<tr><td style="text-align:left">MARCAT_prct</td><td>0.009181024<sup>***</sup> (0.003012634)</td><td>0.005244085<sup>***</sup> (0.001748869)</td><td></td></tr>
+<tr><td style="text-align:left">DEVOPEN_prct</td><td></td><td></td><td>0.006008562<sup>***</sup> (0.0007655637)</td></tr>
+<tr><td style="text-align:left">DEVHIGHCAT_prct</td><td></td><td></td><td>-0.00482103<sup>***</sup> (0.0009107707)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>9.174324<sup>***</sup> (0.5894035)</td><td>3.181088<sup>***</sup> (0.3353929)</td><td>0.4639331<sup>***</sup> (0.06504976)</td></tr>
+<tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>795</td><td>806</td><td>571</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.1960181</td><td>0.4284874</td><td>0.4711511</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.1898964</td><td>0.4234741</td><td>0.4645757</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>1.016161 (df = 788)</td><td>0.5592825 (df = 798)</td><td>0.09202897 (df = 563)</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>32.02025<sup>***</sup> (df = 6; 788)</td><td>85.47065<sup>***</sup> (df = 7; 798)</td><td>71.65375<sup>***</sup> (df = 7; 563)</td></tr>
+<tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="3" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>

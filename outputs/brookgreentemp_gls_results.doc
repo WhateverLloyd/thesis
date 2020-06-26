@@ -1,0 +1,17 @@
+
+<table style="text-align:center"><tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="6">Brookgreen Gardens Temperature</td></tr>
+<tr><td></td><td colspan="6" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>ANN_TAVG_degC</td><td>DJF_TAVG_degC</td><td>MAM_TAVG_degC</td><td>JJA_TAVG_degC</td><td>SON_TAVG_degC</td><td>DAYS_95prctl_TMAX</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">YEAR</td><td>-0.006</td><td>0.008</td><td>-0.046</td><td>0.004</td><td>0.016</td><td>-0.329</td></tr>
+<tr><td style="text-align:left"></td><td>(0.041)</td><td>(0.080)</td><td>(0.037)</td><td>(0.064)</td><td>(0.082)</td><td>(0.338)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>29.937</td><td>-6.704</td><td>109.343</td><td>18.243</td><td>-12.919</td><td>678.817</td></tr>
+<tr><td style="text-align:left"></td><td>(81.817)</td><td>(159.881)</td><td>(74.149)</td><td>(129.376)</td><td>(164.414)</td><td>(678.352)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>19</td><td>20</td><td>20</td><td>18</td><td>17</td><td>19</td></tr>
+<tr><td style="text-align:left">Log Likelihood</td><td>-21.502</td><td>-39.622</td><td>-29.863</td><td>-20.925</td><td>-22.373</td><td>-66.392</td></tr>
+<tr><td style="text-align:left">Akaike Inf. Crit.</td><td>51.004</td><td>87.244</td><td>67.726</td><td>49.851</td><td>52.747</td><td>140.784</td></tr>
+<tr><td style="text-align:left">Bayesian Inf. Crit.</td><td>54.337</td><td>90.805</td><td>71.288</td><td>52.941</td><td>55.579</td><td>144.116</td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="6" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>

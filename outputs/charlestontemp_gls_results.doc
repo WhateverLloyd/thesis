@@ -1,0 +1,17 @@
+
+<table style="text-align:center"><tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="6">Charleston Int'l Airport Temperature</td></tr>
+<tr><td></td><td colspan="6" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>ANN_TAVG_degC</td><td>DJF_TAVG_degC</td><td>MAM_TAVG_degC</td><td>JJA_TAVG_degC</td><td>SON_TAVG_degC</td><td>DAYS_95prctl_TMAX</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">YEAR</td><td>0.068<sup>***</sup></td><td>0.080</td><td>0.048</td><td>0.066<sup>***</sup></td><td>0.062<sup>*</sup></td><td>0.595</td></tr>
+<tr><td style="text-align:left"></td><td>(0.017)</td><td>(0.080)</td><td>(0.031)</td><td>(0.020)</td><td>(0.034)</td><td>(0.381)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>-117.328<sup>***</sup></td><td>-148.877</td><td>-77.900</td><td>-105.247<sup>***</sup></td><td>-105.451</td><td>-1,174.225</td></tr>
+<tr><td style="text-align:left"></td><td>(34.207)</td><td>(160.767)</td><td>(63.012)</td><td>(40.750)</td><td>(67.685)</td><td>(764.664)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td></tr>
+<tr><td style="text-align:left">Log Likelihood</td><td>-10.155</td><td>-38.097</td><td>-27.258</td><td>-19.038</td><td>-25.497</td><td>-72.985</td></tr>
+<tr><td style="text-align:left">Akaike Inf. Crit.</td><td>28.310</td><td>84.193</td><td>62.515</td><td>46.075</td><td>58.994</td><td>153.969</td></tr>
+<tr><td style="text-align:left">Bayesian Inf. Crit.</td><td>31.871</td><td>87.755</td><td>66.077</td><td>49.637</td><td>62.556</td><td>157.531</td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="6" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>

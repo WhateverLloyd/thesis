@@ -1,0 +1,23 @@
+
+<table style="text-align:center"><tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="3"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="3" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>log(trawl_ABUNDANCE_area)</td><td colspan="2">trawl_SP_RICH</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td></tr>
+<tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">CHANNEL_WIDTH_log</td><td>-0.3538083<sup>***</sup> (0.03119344)</td><td>-1.307938<sup>***</sup> (0.2631412)</td><td>-0.8154587<sup>*</sup> (0.4386572)</td></tr>
+<tr><td style="text-align:left">IMPERV_PRCT</td><td>-0.01674047<sup>**</sup> (0.006704091)</td><td></td><td></td></tr>
+<tr><td style="text-align:left">ANN_TAVG_diff</td><td>-0.2809405<sup>***</sup> (0.07753795)</td><td></td><td>-1.33831<sup>***</sup> (0.4521415)</td></tr>
+<tr><td style="text-align:left">SP02</td><td></td><td></td><td>0.9434867<sup>***</sup> (0.3612651)</td></tr>
+<tr><td style="text-align:left">Logger_Salin_mean</td><td></td><td>0.1492651<sup>***</sup> (0.03753655)</td><td>0.1551557<sup>***</sup> (0.03373093)</td></tr>
+<tr><td style="text-align:left">NAO</td><td>0.1536541<sup>***</sup> (0.04743831)</td><td>1.09113<sup>***</sup> (0.2942746)</td><td></td></tr>
+<tr><td style="text-align:left">MARCAT_prct</td><td></td><td>0.07753891<sup>***</sup> (0.0268575)</td><td></td></tr>
+<tr><td style="text-align:left">DAYMET_30dPRCP_cm</td><td></td><td>0.1030691<sup>***</sup> (0.03963672)</td><td></td></tr>
+<tr><td style="text-align:left">preANN_TAVG_diff</td><td></td><td>-0.9517472<sup>**</sup> (0.4656231)</td><td></td></tr>
+<tr><td style="text-align:left">AGRCAT_prct</td><td></td><td></td><td>0.1955787<sup>***</sup> (0.0396018)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>-1.76834<sup>***</sup> (0.178768)</td><td>11.6192<sup>***</sup> (2.362741)</td><td>9.207693<sup>***</sup> (2.082319)</td></tr>
+<tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>740</td><td>374</td><td>365</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.1881586</td><td>0.1643328</td><td>0.1794067</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.1837404</td><td>0.1506706</td><td>0.1679778</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>1.3079 (df = 735)</td><td>5.633065 (df = 367)</td><td>5.197813 (df = 359)</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>42.58731<sup>***</sup> (df = 4; 735)</td><td>12.02834<sup>***</sup> (df = 6; 367)</td><td>15.69767<sup>***</sup> (df = 5; 359)</td></tr>
+<tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="3" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>

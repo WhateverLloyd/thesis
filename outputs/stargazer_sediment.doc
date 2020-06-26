@@ -1,0 +1,30 @@
+
+<table style="text-align:center"><tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="5"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="5" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>ERMQ_ALL</td><td>ERMQ_DDT_tot</td><td>ERMQ_met</td><td>ERMQ_PAH_tot</td><td>ERMQ_PCB_tot</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr>
+<tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">SiltClay</td><td>0.0003064252<sup>***</sup> (0.000006812214)</td><td></td><td>0.0009669415<sup>***</sup> (0.00001645943)</td><td>0.00005746578<sup>***</sup> (0.00000277615)</td><td>0.00003489565<sup>***</sup> (0.000003767839)</td></tr>
+<tr><td style="text-align:left">TOC_sediment</td><td></td><td>0.0005111881<sup>***</sup> (0.00006006062)</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">CHANNEL_WIDTH_log</td><td></td><td></td><td></td><td>0.0001472141<sup>***</sup> (0.00004409888)</td><td></td></tr>
+<tr><td style="text-align:left">DJF_PRCP_diff</td><td>0.00008059808<sup>***</sup> (0.00001909685)</td><td>0.00006687419<sup>***</sup> (0.000009858509)</td><td></td><td>0.00004020993<sup>***</sup> (0.000007292845)</td><td></td></tr>
+<tr><td style="text-align:left">MAM_PRCP_diff</td><td></td><td></td><td></td><td></td><td>0.0001076271<sup>***</sup> (0.000008818347)</td></tr>
+<tr><td style="text-align:left">DJF_TAVG_diff</td><td>-0.0003147005<sup>***</sup> (0.0001056507)</td><td></td><td></td><td>-0.0001672049<sup>***</sup> (0.000040647)</td><td>-0.0004551468<sup>***</sup> (0.00006049646)</td></tr>
+<tr><td style="text-align:left">GROUP_A_prct</td><td>-0.00006186064<sup>***</sup> (0.00001299997)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">MIXED_FOREST_prct</td><td></td><td></td><td></td><td>-0.0001404314<sup>***</sup> (0.00002852314)</td><td></td></tr>
+<tr><td style="text-align:left">personsPERha</td><td>0.002138698<sup>***</sup> (0.0002104006)</td><td></td><td></td><td>0.0009614936<sup>***</sup> (0.00008443384)</td><td>0.0005882514<sup>***</sup> (0.0001170603)</td></tr>
+<tr><td style="text-align:left">WATCAT_prct</td><td></td><td>-0.00003096101<sup>***</sup> (0.000005351455)</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">AGRCAT_prct</td><td></td><td>0.00007274847<sup>***</sup> (0.0000184093)</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">SP02</td><td></td><td></td><td>0.002703032<sup>***</sup> (0.0005002523)</td><td></td><td></td></tr>
+<tr><td style="text-align:left">preSON_PRCP_diff</td><td></td><td></td><td>-0.0001161909<sup>***</sup> (0.00002915872)</td><td></td><td></td></tr>
+<tr><td style="text-align:left">POORLY_DRAINE_prct</td><td></td><td></td><td>0.0001176415<sup>***</sup> (0.00002918542)</td><td></td><td></td></tr>
+<tr><td style="text-align:left">IMPERV_PRCT</td><td></td><td>0.00006750973<sup>**</sup> (0.00002655099)</td><td>0.0004298781<sup>***</sup> (0.0001160402)</td><td></td><td></td></tr>
+<tr><td style="text-align:left">DJF_PRCP_diff:DJF_TAVG_diff</td><td></td><td></td><td></td><td>-0.00001953715<sup>***</sup> (0.000004346178)</td><td></td></tr>
+<tr><td style="text-align:left">MAM_PRCP_diff:DJF_TAVG_diff</td><td></td><td></td><td></td><td></td><td>-0.00004741737<sup>***</sup> (0.000006082032)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>0.005197141<sup>***</sup> (0.0004852447)</td><td>0.001223459<sup>***</sup> (0.0002512097)</td><td>0.0007557587 (0.002031441)</td><td>-0.0006678166<sup>**</sup> (0.0002830664)</td><td>0.001269389<sup>***</sup> (0.0001540128)</td></tr>
+<tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>788</td><td>780</td><td>801</td><td>773</td><td>773</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.7431309</td><td>0.1783615</td><td>0.8232129</td><td>0.4546827</td><td>0.3262178</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.7414886</td><td>0.1730537</td><td>0.8221011</td><td>0.4496929</td><td>0.3218255</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>0.004752446 (df = 782)</td><td>0.002419712 (df = 774)</td><td>0.01171575 (df = 795)</td><td>0.001796093 (df = 765)</td><td>0.002628061 (df = 767)</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>452.4705<sup>***</sup> (df = 5; 782)</td><td>33.60402<sup>***</sup> (df = 5; 774)</td><td>740.387<sup>***</sup> (df = 5; 795)</td><td>91.12186<sup>***</sup> (df = 7; 765)</td><td>74.27001<sup>***</sup> (df = 5; 767)</td></tr>
+<tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="5" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>

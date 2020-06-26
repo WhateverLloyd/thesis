@@ -1,0 +1,17 @@
+
+<table style="text-align:center"><tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="6">Savannah Int'l Airport Temperature</td></tr>
+<tr><td></td><td colspan="6" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>ANN_TAVG_degC</td><td>DJF_TAVG_degC</td><td>MAM_TAVG_degC</td><td>JJA_TAVG_degC</td><td>SON_TAVG_degC</td><td>DAYS_95prctl_TMAX</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">YEAR</td><td>0.087<sup>***</sup></td><td>0.119</td><td>0.071<sup>*</sup></td><td>0.069<sup>***</sup></td><td>0.077<sup>**</sup></td><td>0.532</td></tr>
+<tr><td style="text-align:left"></td><td>(0.019)</td><td>(0.075)</td><td>(0.040)</td><td>(0.025)</td><td>(0.036)</td><td>(0.652)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>-155.173<sup>***</sup></td><td>-227.883</td><td>-123.344</td><td>-111.678<sup>**</sup></td><td>-134.238<sup>*</sup></td><td>-1,047.063</td></tr>
+<tr><td style="text-align:left"></td><td>(37.883)</td><td>(150.317)</td><td>(79.986)</td><td>(49.478)</td><td>(72.398)</td><td>(1,309.834)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td></tr>
+<tr><td style="text-align:left">Log Likelihood</td><td>-12.552</td><td>-36.941</td><td>-29.717</td><td>-18.769</td><td>-23.432</td><td>-75.055</td></tr>
+<tr><td style="text-align:left">Akaike Inf. Crit.</td><td>33.105</td><td>81.883</td><td>67.434</td><td>45.537</td><td>54.865</td><td>158.111</td></tr>
+<tr><td style="text-align:left">Bayesian Inf. Crit.</td><td>36.666</td><td>85.444</td><td>70.996</td><td>49.099</td><td>58.426</td><td>161.672</td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="6" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
